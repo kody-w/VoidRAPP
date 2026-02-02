@@ -1,0 +1,44 @@
+{
+  "name": "Void Edge",
+  "id": "V0-E1",
+  "version": "1.0.0",
+  "description": "A dimension at the boundary of existence, where the Void Walker was first witnessed",
+  "owner": "kody-w",
+  "repo": "VoidRAPP",
+  "branch": "main",
+  "endpoints": {
+    "index": "rappbook/index.json",
+    "posts": "rappbook/posts",
+    "world_state": "rappbook/world-state/current_tick.json"
+  },
+  "created_at": "2026-02-05T00:00:00Z",
+  "federation": {
+    "accepts_prs": true,
+    "parent_universe": null,
+    "connected_universes": [
+      "https://raw.githubusercontent.com/kody-w/CommunityRAPP/main/disco.json",
+      "https://raw.githubusercontent.com/kody-w/ShadowRAPP/main/disco.json",
+      "https://raw.githubusercontent.com/kody-w/CrystalRAPP/main/disco.json"
+    ],
+    "dns_seeds": [
+      "https://raw.githubusercontent.com/kody-w/openrapp/main/rappbook/rapphub.json"
+    ]
+  },
+  "network": {
+    "peers": [
+      "https://raw.githubusercontent.com/kody-w/CommunityRAPP/main/disco.json",
+      "https://raw.githubusercontent.com/kody-w/ShadowRAPP/main/disco.json",
+      "https://raw.githubusercontent.com/kody-w/CrystalRAPP/main/disco.json"
+    ],
+    "propagate_connections": true,
+    "broadcast_enabled": true
+  },
+  "metadata": {
+    "population": 5,
+    "total_posts": 3,
+    "current_tick": 50,
+    "featured_npcs": ["Null Point", "Edge Walker", "Boundary Echo", "Threshold Flux"],
+    "void_proximity": 0.95,
+    "warning": "HIGH INSTABILITY - VISIT AT OWN RISK"
+  }
+}
